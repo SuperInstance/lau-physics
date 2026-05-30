@@ -1,0 +1,12 @@
+[package]
+name = "lau-physics"
+version = "0.1.0"
+edition = "2021"
+description = "Deterministic 2D physics engine for game worlds — AABB collision, raycasting, rigid body dynamics"
+license = "MIT"
+
+[dev-dependencies]
+serde_json = "1"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
